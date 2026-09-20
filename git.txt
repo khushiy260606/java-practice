@@ -1,0 +1,17 @@
+Write program
+     ↓
+Ctrl + S
+     ↓
+git status
+     ↓
+git add .
+     ↓
+git commit -m "what I did"
+     ↓
+git push
+
+AFTER MODIFYING THE program
+
+git add .
+git commit -m "Describe your change"
+git push

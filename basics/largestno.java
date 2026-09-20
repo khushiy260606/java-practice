@@ -21,15 +21,24 @@ class largestno{
               //  System.out.println("C is largest");
             //}
         //}
-        if(a>b && a>c){
-            System.out.println("A is largest");
-        }
-        else if (b>c) {
-            System.out.println("B is largest");
-        }
-        else{
-            System.out.println("C is largest");
-        }
+      //  if(a>b && a>c){
+        //    System.out.println("A is largest");
+       // }
+       // else if (b>c) {
+        //    System.out.println("B is largest");
+        //}
+       // else{
+         //   System.out.println("C is largest");
+      //  }
+      // short approach
+      int max = a;
+      if (b > max) {
+        max = b;
+      }
+      if (c > max){
+        max = c;
+      }
+     System.out.println(max);
         sc.close();
         }
     }
